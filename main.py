@@ -28,6 +28,4 @@ async def info(ctx,type: str):
     Info.set_footer(text=Footer)
     await ctx.send(embed=Info)
     
-    
-
-bot.run("MTAxOTQyMjQ4NTA4MDQ1NzM3Nw.G4rqA-.cCkUdkDiUX_VJw9OewdYZtqwW9YNntot_BnPi8")
+bot.run("BOT_TOKEN")
